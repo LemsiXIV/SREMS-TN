@@ -6,7 +6,7 @@
 #include <SPI.h>
 #include <Wire.h>
 #include <LoRa.h>
-#include "config.h"
+#include "../common/config.h"
 
 #include <Adafruit_INA219.h>
 Adafruit_INA219 ina_panel(0x40);

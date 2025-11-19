@@ -7,7 +7,7 @@
 #include <WiFi.h>
 #include <WebServer.h>
 #include <LoRa.h>
-#include "config.h"
+#include "../common/config.h"
 
 #define TINY_GSM_MODEM_SIM800
 #include <TinyGsmClient.h>
